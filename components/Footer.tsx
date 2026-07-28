@@ -6,7 +6,7 @@ export default function Footer() {
   return React.createElement("footer", { id: "footer", className: "bg-[#1A1A1A] text-white/80 pt-20 pb-8" },
     React.createElement("div", { className: "max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-2 lg:grid-cols-4 gap-12 mb-16" },
     React.createElement("div", null,
-    React.createElement("div", { className: "w-16 h-16 bg-[#97183C] rounded-sm flex items-center justify-center text-sm font-semibold mb-4" }, "Ritumbhara"),
+    React.createElement("div", { className: "w-16 h-16 bg-[#97183C] rounded-sm flex items-center justify-center text-sm font-semibold mb-4" }, "Ritumbhara", React.createElement("sup", { className: "text-[7px] ml-0.5 font-normal" }, "\u00AE")),
     React.createElement("p", { className: "text-sm text-white/60" }, "A hospitality management company curating hotels, villas, and boutique stays across India.")
     ),
     React.createElement("div", null,
