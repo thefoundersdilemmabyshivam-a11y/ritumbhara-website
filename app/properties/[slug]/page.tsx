@@ -23,7 +23,7 @@ if (!property) return notFound();
 
 return React.createElement("main", { className: "max-w-7xl mx-auto px-6 lg:px-10 pt-32 pb-24" },
 React.createElement("div", { className: "relative h-[420px] w-full rounded-md overflow-hidden mb-10" },
-React.createElement(Image, { src: property.heroImage, alt: property.name, fill: true, className: "object-cover" })
+React.createElement(Image, { src: property.heroImage, alt: property.name, fill: true, sizes: "100vw", priority: true, className: "object-cover" })
 ),
 React.createElement("div", { className: "grid lg:grid-cols-3 gap-16" },
 React.createElement("div", { className: "lg:col-span-2" },
