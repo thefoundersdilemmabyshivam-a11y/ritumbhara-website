@@ -22,6 +22,7 @@ export default function Navbar() {
     { href: "/experiences", label: "Experiences" },
     { href: "/about", label: "Our Story" },
     { href: "/contact", label: "Contact" },
+      { href: "https://ritumbhara-partner-onboarding-ksd6qnkze.vercel.app", label: "Partner With Us" },
       ];
 
   return React.createElement("header", {
